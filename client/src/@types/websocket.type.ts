@@ -1,4 +1,4 @@
 export type WebsocketMessage = {
-  messageType: "text"
-  data: string|Blob|ArrayBuffer,
+  messageType: "text";
+  data: string,
 };
